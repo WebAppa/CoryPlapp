@@ -1,0 +1,256 @@
+*::after,
+*::before,
+* {
+
+    border: solid brown 1px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+
+    background-color: rgba(82, 81, 9, 0.555);
+    border: none;
+
+}
+
+body {
+    margin:10px;
+    border: none;
+
+    box-shadow: rgba(165, 42, 42, 0.603) 4px 4px;
+
+}
+
+main,footer {
+
+    background-color: rgba(161, 161, 147, 0.767);
+
+}
+
+main {
+    margin-top: 1em;
+    padding: 0;
+}
+
+.headerA { 
+    background-image: url(ohneSchildk..jpg);
+
+}
+.home {
+    background-image: url(ohneSchildk..jpg);
+}
+
+.h1_ {
+    font-size: xx-large;
+    white-space: nowrap;
+    padding-left: 2px;
+}
+
+.p1 {
+    margin-top: 5px;
+    padding: 5px;
+    font-weight: 900;
+    border: inherit;
+
+}
+
+.ol_ {
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-left: 0;
+    gap: 2vh;
+    
+}
+
+li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(2), li:last-child{
+    border-left: solid brown 4px;
+}
+
+li:first-child {
+
+    border-bottom: none;
+
+
+}
+
+p {
+    text-align: center;
+    border: none;
+}
+
+.about {
+    font-style: italic;
+    padding: 0px 2px 0px 2px;
+
+    max-width: 1000px;
+    min-width: 10vh;
+}
+
+.h2_ {
+    font-weight: 300;
+    padding: 1.5em 0 0 4px;
+    border: none;
+}
+
+.p2 {
+    padding: 1em 0px 2em 0px;
+}
+
+span  {
+    background-color: black;
+    border: none;
+}
+span:hover {
+    background-color: inherit;
+    transition-duration: 1s;
+    border: none;
+
+
+}
+
+
+h3 {
+
+    font-weight: 300;
+    padding: 1.5em 1em 0 1em;
+    border: none;
+
+}
+
+.p3 {
+
+    padding: 1em 1em 2em 1em;
+    text-align: left;
+
+}
+
+.fuenf {
+
+    max-width: 900px;
+    min-width: 10vh;
+    
+
+}
+
+
+/* WHAT WE DO WITH LINKS */
+a:any-link {
+
+    color: inherit;
+    border: none;
+    text-decoration: none;
+
+}
+a:hover, a:focus-visible {
+    color: inherit;
+    border: none;
+    text-decoration: none;
+}
+
+a:active {
+    color: inherit;
+    border: none;
+    text-decoration: none;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+  
+  /* || Phones */
+  @media screen and (max-width: 844px) {
+
+    .ol_ {
+
+        flex-wrap: wrap;
+
+    }
+
+    li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5), li:last-child{
+        border-right: solid brown 4px;
+        border-top: solid brown 2px;
+    }
+
+}
+    /* bei 728px evtl. das 2. kind anpassen bzgl der border-left */
+  
+  /* || Large */
+  @media screen and (min-width: 1139px) {
+
+    .about {
+
+        margin-left: 19%;
+
+    }
+
+
+.fuenf {
+
+    max-width: 900px;
+    min-width: 10vh;
+    margin-left: 20.5%;
+
+}
+
+    
+  }
+
+  /* -----------------------------------------------------------------
+
+  DARK MODE */
+
+  @media (prefers-color-scheme: dark){
+
+    html{
+
+        background-color: #2e2e2e;
+        border: none;
+    
+    }
+    
+    body {
+        margin:10px;
+        
+        background-color: #262626;
+        color: antiquewhite;
+        box-shadow: rgba(165, 42, 42, 0.603) 4px 4px;
+    
+    }
+    
+    main,footer {
+    
+        background-color: rgba(165, 42, 42, 0.205);
+    
+    }
+
+
+    .headerA { 
+        background-image: none;
+    
+    }
+    .home {
+        background-image: none;
+
+    }
+
+    span  {
+        background-color: black;
+        color: black;
+        border: none;
+    }
+    
+    
+    span:hover {
+        background-color: inherit;
+        transition-duration: 1s;
+        color: inherit;
+        border: none;
+    }
+
+
+}
+  
