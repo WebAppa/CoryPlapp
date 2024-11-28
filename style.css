@@ -57,10 +57,6 @@ main {
 
 }
 
-li {
-    min-width: auto;
-}
-
 .ol_ {
 
     display: flex;
