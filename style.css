@@ -199,6 +199,11 @@ a:active {
     
   }
 
+  /* -------------------------Phones 2:--------------*/
+
+@media only screen and (max-width: 768px) and (min-width: 640px) and (orientation: portrait) {
+    meta[name="viewport"] }
+
   /* -----------------------------------------------------------------
 
   DARK MODE */
