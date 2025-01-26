@@ -163,7 +163,7 @@ a:active {
 
   
   /* || Phones */
-  @media screen and (max-width: 844px) {
+  @media screen and (max-width: 768px) {
 
     .ol_ {
 
@@ -184,26 +184,21 @@ a:active {
 
     .about {
 
-        margin-left: 19%;
+        margin-left: 3vw;
 
     }
 
 
 .fuenf {
 
-    max-width: 900px;
+    max-width: 90vw;
     min-width: 10vh;
-    margin-left: 20.5%;
+    margin-left: 2rem;
 
 }
 
     
   }
-
-  /* -------------------------Phones 2:--------------*/
-
-@media only screen and (max-width: 768px) and (min-width: 640px) and (orientation: portrait) {
-    meta[name="viewport"] }
 
   /* -----------------------------------------------------------------
 
