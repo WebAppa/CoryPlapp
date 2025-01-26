@@ -171,13 +171,17 @@ a:active {
 
     }
 
-    li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5), li:last-child{
+      li:not(:last-child) {
+    border-right: solid brown 4px;
+    border-top: solid brown 2px;
+
+    /* li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5), li:last-child{
         border-right: solid brown 4px;
         border-top: solid brown 2px;
     }
 
 }
-    /* bei 728px evtl. das 2. kind anpassen bzgl der border-left */
+    ......bei 728px evtl. das 2. kind anpassen bzgl der border-left */
   
   /* || Large */
   @media screen and (min-width: 1139px) {
