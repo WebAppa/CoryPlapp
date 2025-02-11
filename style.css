@@ -18,7 +18,7 @@ html{
 }
 
 body {
-    margin:0.55rem;
+    margin:10px;
     border: none;
 
     box-shadow: rgba(165, 42, 42, 0.603) 4px 4px;
@@ -66,6 +66,10 @@ main {
     padding-left: 0;
     gap: 2vh;
     
+}
+
+li {
+    min-width: auto;
 }
 
 li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(2), li:last-child{
@@ -140,6 +144,7 @@ h3 {
 
 
 /* WHAT WE DO WITH LINKS */
+
 a:any-link {
 
     color: inherit;
@@ -161,9 +166,9 @@ a:active {
 
 /* -------------------------------------------------------------------------------------------------------- */
 
-  
   /* || Phones */
-  @media screen and (max-width: 768px) {
+
+  @media screen and (max-width: 844px) {
 
     .ol_ {
 
@@ -171,42 +176,36 @@ a:active {
 
     }
 
-      li:not(:last-child) {
-    border-right: solid brown 4px;
-    border-top: solid brown 2px;
-
-    /* li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5), li:last-child{
+    li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5), li:last-child{
         border-right: solid brown 4px;
         border-top: solid brown 2px;
     }
 
 }
-    ......bei 728px evtl. das 2. kind anpassen bzgl der border-left */
+    /* bei 728px evtl. das 2. kind anpassen bzgl der border-left */
   
   /* || Large */
   @media screen and (min-width: 1139px) {
 
     .about {
 
-        margin-left: 3vw;
+        margin-left: 19%;
 
     }
 
 
 .fuenf {
 
-    max-width: 90vw;
+    max-width: 900px;
     min-width: 10vh;
-    margin-left: 2rem;
+    margin-left: 20.5%;
 
 }
 
     
   }
 
-  /* -----------------------------------------------------------------
-
-  DARK MODE */
+  /* -------------------DARK MODE------------- */
 
   @media (prefers-color-scheme: dark){
 
@@ -258,4 +257,3 @@ a:active {
 
 
 }
-  
